@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const path = require('path')
 const dotenv = require('dotenv').config()
-const port = process.env.PORT
+const port = process.env.PORT || 8080
 
 //css,js,images files assets
 app.use('/assets', express.static('assets'))
