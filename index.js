@@ -1,7 +1,8 @@
 const express = require('express')
 const app = express()
 const path = require('path')
-const port = 3000
+const dotenv = require('dotenv')
+const port = process.env.PORT || 3000
 
 //css,js,images files assets
 app.use('/assets', express.static('assets'))
