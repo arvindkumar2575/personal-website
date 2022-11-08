@@ -2,3 +2,46 @@ body{
     margin: 0;
     padding: 0;
 }
+
+label{
+    margin-bottom: 0.2rem;
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: flex-end;
+}
+
+header.header-section{
+    padding: 2rem 1rem;
+    height: 25rem;
+    overflow: hidden;
+}
+header .AR3212-JX{
+    overflow: hidden;
+}
+header .AR3213-JX{
+    padding-right: 20rem;
+    height: 20rem;
+}
+header .AR3214-JX{
+    padding: 100px 0 20px;
+}
+header .AR3215-JX{
+    position: absolute;
+    right: 3rem;
+    top: 4rem;
+    width: 18rem;
+
+}
+
+section.portfolio-section{
+    padding: 2rem 1rem;
+    background-color: #f0f0f0;
+}
+section.portfolio-section h4{
+    text-align: center;
+    padding-bottom: 2rem;
+}
+section.portfolio-section .media{
+    padding: 1rem 0;
+}
