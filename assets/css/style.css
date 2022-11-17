@@ -1,47 +1,119 @@
-body{
-    margin: 0;
+body {
+    margin: 0 auto;
     padding: 0;
+    box-sizing: border-box;
+    max-width: 1440px;
 }
 
-label{
+label {
     margin-bottom: 0.2rem;
 }
 
-.navbar-expand-lg .navbar-collapse{
+.navbar-expand-lg .navbar-collapse {
     justify-content: flex-end;
 }
 
-header.header-section{
+header.header-section {
     padding: 2rem 1rem;
     height: 25rem;
     overflow: hidden;
 }
-header .AR3212-JX{
+
+header .AR3212-JX {
     overflow: hidden;
 }
-header .AR3213-JX{
-    padding-right: 20rem;
+
+header .AR3213-JX {
     height: 20rem;
+    display: flex;
 }
-header .AR3214-JX{
+
+header .AR3214-JX {
     padding: 100px 0 20px;
 }
+
+header .AR3214-JX h1{
+    margin-bottom: 0;
+}
+
+header .AR3214-JX p{
+    margin-bottom: 0;
+}
+
 header .AR3215-JX{
-    position: absolute;
-    right: 3rem;
-    top: 4rem;
-    width: 18rem;
+    
+}
+
+header .AR3215-JX .AR32151-JX{
+    width: 100%;
+}
+
+header .AR3216-JX {
 
 }
 
-section.portfolio-section{
+section.portfolio-section {
     padding: 2rem 1rem;
     background-color: #f0f0f0;
 }
-section.portfolio-section h4{
+
+section.portfolio-section h4 {
     text-align: center;
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
-section.portfolio-section .media{
+
+section.portfolio-section .media {
     padding: 1rem 0;
+}
+
+section.portfolio-section .media .AR3318-JX {
+    width: 80px;
+}
+
+section.portfolio-section .media .position-role-JX {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2rem;
+    align-items: baseline;
+}
+
+section.portfolio-section .media .position-role-JX .tenure-JX{
+    font-size: 0.9rem;
+}
+
+section.portfolio-section .AR3312-JX{
+    gap: 15px;
+}
+
+section.portfolio-section .experience-row-JX {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: #fff;
+    border-radius: 8px;
+}
+
+.progress {
+    height: 8px;
+}
+
+section.portfolio-section .media .company-name-location-JX {
+    font-size: 0.8rem;
+    border-bottom: 1px solid #b3b3b3;
+}
+
+section.portfolio-section .media .work-description-JX{
+    font-size: 0.9rem;
+}
+
+section.portfolio-section .experience-row-JX .experience-JX{
+}
+
+section.portfolio-section .experience-row-JX .skills-JX label{
+    font-size: 0.9rem;
+}
+
+@media only screen and (max-device-width : 640px) {
+    .media {
+        flex-direction: column;
+    }
 }
